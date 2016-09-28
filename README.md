@@ -15,9 +15,9 @@ First line will contain two space separated integers, n m, which represent numbe
 You have to print the output of program as mentioned in Objective. For programs with more than 100000 operations, print the output till then followed by "PROCESS TIME OUT. KILLED!!!" in the next line.
 
 ## Constraints 
-0 <= n <= 150 
-1 <= m <= 150 
-Length of Brain__k program will not exceed 5000.
+* 0 <= n <= 150 
+* 1 <= m <= 150 
+* Length of Brain__k program will not exceed 5000.
 
 ## Notes:
 
