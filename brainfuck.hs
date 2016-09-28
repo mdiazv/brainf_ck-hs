@@ -8,7 +8,7 @@ main = do
 	input <- getLine
 	code <- replicateM m getLine
 --	putStrLn $ show (compile code)
-	putStrLn $ execute (compile code) input
+	putStrLn $ execute (compile code) (take n input)
 
 data Expression =
 	Increment | Decrement | Read | Write | MoveRight | MoveLeft | Loop [Expression]
