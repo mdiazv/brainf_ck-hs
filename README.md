@@ -1,5 +1,6 @@
 # brainf_ck-hs
 A Haskell interpreter for the brainf_ck language
+
 Inspired By: https://www.hackerrank.com/challenges/brainf-k-interpreter-fp
 
 ## Objective
