@@ -42,7 +42,6 @@ execute' (c:cs) input mem output = case c of
 	Write     -> execute' cs input mem (memValue mem:output)
 	MoveRight -> execute' cs input (memRight mem) output
 	MoveLeft  -> execute' cs input (memLeft mem) output
-	Loop []   -> (output, input, mem)
 	Loop body -> if memRawValue mem == 0
 				 then execute' cs input mem output
 				 else let (loopOutput, loopInput, loopMem) = execute' body input mem output
